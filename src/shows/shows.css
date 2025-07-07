@@ -1,5 +1,6 @@
 .shows {
   display: flex;
+  justify-content: flex-end;
 }
 
 .show {
@@ -18,7 +19,8 @@
 
 .show-details {
   display: grid;
-  gap: 1rem;
+  gap: 2rem;
+  margin-top: 1rem;
 }
 
 @media (width >= 500px) {
